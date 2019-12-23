@@ -68,6 +68,11 @@ p {
     color: #000;
 }
 
+.menu-item:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
 /* ------ Travel Inspiration ------ */
 
 .travel-inspiration-heading div h3 {

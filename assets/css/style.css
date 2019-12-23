@@ -64,13 +64,15 @@ p {
 /* ------ Navigation ------ */
 
 .menu-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-weight: 300;
     color: #000;
 }
 
 .menu-item:hover {
     transform: scale(1.1);
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 /* ------ Travel Inspiration ------ */
@@ -88,12 +90,27 @@ p {
     padding: 0px;
 }
 
+.barcelona-image:hover {
+    transform: scale(1.03);
+    transition: all .3s ease-in-out;
+}
+
 .paris-image {
     text-align: center;
     padding: 0px;
 }
 
+.paris-image:hover {
+    transform: scale(1.03);
+    transition: all .3s ease-in-out;
+}
+
 .munich-image {
     text-align: left;
     padding: 0px;
+}
+
+.munich-image:hover {
+    transform: scale(1.03);
+    transition: all .3s ease-in-out;
 }

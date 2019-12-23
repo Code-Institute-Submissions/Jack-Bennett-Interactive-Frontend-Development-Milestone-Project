@@ -1,5 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 hr {
+    margin: 0;
+    padding: 0;
+}
+
+p {
     margin: 0 !important;
+    padding: 0 !important;
+}
+
+.justify-content-center {
+    margin: 0 !important;
+    width: 100%;
+    text-align: center !important;
 }
 
 /* ------ Boostrap ------ */
@@ -44,12 +61,34 @@ hr {
     font-family: "Roboto", sans-serif;
 }
 
+/* ------ Navigation ------ */
+
+.menu-item {
+    font-weight: 300;
+    color: #000;
+}
+
 /* ------ Travel Inspiration ------ */
 
-.samples div h3 {
+.travel-inspiration-heading div h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
+}
+
+.barcelona-image {
+    text-align: right;
+    padding: 0px;
+}
+
+.paris-image {
+    text-align: center;
+    padding: 0px;
+}
+
+.munich-image {
+    text-align: left;
+    padding: 0px;
 }

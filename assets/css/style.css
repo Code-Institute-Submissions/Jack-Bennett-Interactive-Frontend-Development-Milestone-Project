@@ -1,0 +1,43 @@
+
+
+/* ------ Boostrap ------ */
+
+.col-lg-5 {
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    border: 1px;
+    text-align: center;
+}
+
+.col-lg-7 {
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    border: 1px;
+    text-align: center;
+}
+
+/* ------ Headings ------ */
+
+.page-title {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 35px;
+    font-weight: 300;
+    border-color: #000;
+    color: #787878;
+    font-family: "Roboto", sans-serif;
+}
+
+.page-quote {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 300;
+    border-color: #000;
+    color: #787878;
+    font-family: "Roboto", sans-serif;
+}

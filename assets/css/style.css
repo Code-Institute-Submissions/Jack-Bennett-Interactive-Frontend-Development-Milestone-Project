@@ -171,3 +171,41 @@ p {
 .social-media-footer {
     text-align: center;
 }
+
+/* ------ Footer / Social Media ------ */
+
+.facebook-footer i {
+    font-size: 33px;
+    color: #0e76a8;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+
+.twitter-footer i {
+    font-size: 33px;
+    color: #0e76a8;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+
+.instagram-footer i {
+    font-size: 33px;
+    color: #0e76a8;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+
+.pinterest-footer i {
+    font-size: 33px;
+    color: #0e76a8;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}

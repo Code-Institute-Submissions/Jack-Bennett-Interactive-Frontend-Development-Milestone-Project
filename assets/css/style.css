@@ -84,6 +84,9 @@ p {
 
 /* ------ Navigation ------ */
 
+.website-logo {
+}
+
 .menu-item {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -97,11 +100,17 @@ p {
     transition: all .1s ease-in-out;
 }
 
+.nav-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
 @media screen and (max-width: 992px) {
 .header-name {
     padding-bottom: 10px;
     margin: 0;
-    }
+}
     
 .navbar-expand-sm {
     text-align: center;
@@ -114,9 +123,23 @@ p {
 }
 
 .nav-menu {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin: 0;
+}
+
+}
+
+@media screen and (max-width: 720px) {
+.website-logo {
+    text-align: center;
+}
+}
+
+/* ------ Countdown Banner / Clock ------ */
+
+.countdown-banner {
+    padding-top: 15px;
 }
 
 /* ------ Travel Inspiration ------ */
@@ -144,9 +167,11 @@ p {
     padding: 0px;
 }
 
-}
-
 /* ------ Footer ------ */
+
+.footer-padding {
+    padding-top: 15px;
+}
 
 .social-media-footer {
     text-align: center;
@@ -160,7 +185,7 @@ p {
 }
 
 .trust-pilot-section {
-    background-color: #f5f5f5;
+    background-color: #e7e7e7;
     padding-bottom: 15px;
 }
 
@@ -192,7 +217,8 @@ p {
 
 .social-media-header {
     padding-left: 0 !important;
-    background-color: #ffbdbd;
+    background-color: #e7e7e7;
+    text-align: center;
 }
 
 .social-media-header-icons {

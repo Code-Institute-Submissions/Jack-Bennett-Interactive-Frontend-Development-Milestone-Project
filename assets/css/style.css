@@ -170,6 +170,24 @@ p {
 
 .social-media-footer {
     text-align: center;
+    padding-top: 15px;
+}
+
+.reviews-footer {
+    text-align: center;
+    padding: 0;
+    margin: 0 !important;
+}
+
+.trustpilot-logo {
+    width: 250px;
+    height: auto;
+}
+
+.trustpilot-five-stars {
+    width: 175px;
+    height: auto;
+    padding-top: 10px;
 }
 
 /* ------ Footer / Social Media ------ */

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -9,8 +11,8 @@ hr {
 }
 
 p {
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
 }
 
 /* ------ General ------ */
@@ -19,6 +21,10 @@ p {
     margin: 0 !important;
     width: 100%;
     text-align: center !important;
+}
+
+.raleway-font {
+    font-family: 'Raleway', sans-serif;
 }
 
 /* ------ Boostrap ------ */
@@ -61,6 +67,13 @@ p {
     border-color: #000;
     color: #787878;
     font-family: "Roboto", sans-serif;
+}
+
+.travel-inspiration-heading {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 !important;
 }
 
 /* ------ Navigation ------ */
@@ -190,6 +203,19 @@ p {
     padding-top: 10px;
 }
 
+.trustpilot-header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ------ Header / Social Media ------ */
+
+.social-media-header {
+    
+}
+
 /* ------ Footer / Social Media ------ */
 
 .facebook-footer i {
@@ -204,26 +230,14 @@ p {
 .twitter-footer i {
     font-size: 33px;
     color: #0e76a8;
-    transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
 }
 
 .instagram-footer i {
     font-size: 33px;
     color: #0e76a8;
-    transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
 }
 
 .pinterest-footer i {
     font-size: 33px;
     color: #0e76a8;
-    transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
 }

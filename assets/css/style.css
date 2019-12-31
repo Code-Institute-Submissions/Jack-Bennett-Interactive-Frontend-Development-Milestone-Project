@@ -82,6 +82,21 @@ p {
     margin: 0 !important;
 }
 
+/* ------ Slideshow ------ */
+
+.slides-margin {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+
+.slide-opacity, .slide-hover-opacity:hover {
+    opacity: 0.60;
+}
+
+.slide-opacity-off, .slide-hover-opacity-off:hover {
+    opacity: 1;
+}
+
 /* ------ Navigation ------ */
 
 .website-logo {

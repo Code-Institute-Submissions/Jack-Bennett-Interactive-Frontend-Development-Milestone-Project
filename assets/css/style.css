@@ -100,6 +100,7 @@ p {
 /* ------ Navigation ------ */
 
 .website-logo {
+    padding-top: 5px;
 }
 
 .menu-item {

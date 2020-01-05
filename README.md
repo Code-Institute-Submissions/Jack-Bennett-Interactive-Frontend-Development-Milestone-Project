@@ -1,4 +1,4 @@
-# Jack Bennett Portfolio
+# Jack Bennett Holidays
 
 This website's sole purpose is to provide a platform for all of my personal work and achievements. It will be a source of information about me for potential recruiters and others interested in my work and capabilities.
 
@@ -53,10 +53,20 @@ My website was built using 'Cloud9' which is a service provided by Amazon. In Cl
 
 ## Credits
 
-The contact form design was inspired by the contact form designed in the small 'Module 4' project prior to this one.
+The **contact form** design was inspired by the contact form designed in the small 'Module 4' project which was completed in at earlier date.
 
-Website image 1: https://unsplash.com/photos/95YRwf6CNw8
+The **slideshow** design was inspired and provided by W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp
 
-Website image 2: https://unsplash.com/photos/5fNmWej4tAA
+The **countdown timer** was inspired and provided by W3 Schools: https://www.w3schools.com/howto/howto_js_countdown.asp
 
-Website created by Jack Bennett.
+Paris Image (Travel Packages): 
+
+France Image (Travel Packages): 
+
+Barcelona Image (Travel Inspiration): 
+
+Paris Image (Travel Inspiration): 
+
+Munich Image (Travel Inspiration): 
+
+**Website created by Jack Bennett.**

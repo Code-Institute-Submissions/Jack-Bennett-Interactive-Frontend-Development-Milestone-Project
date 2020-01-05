@@ -59,14 +59,14 @@ The **slideshow** design was inspired and provided by W3 Schools: https://www.w3
 
 The **countdown timer** was inspired and provided by W3 Schools: https://www.w3schools.com/howto/howto_js_countdown.asp
 
-Paris Image (Travel Packages): 
+France Image (Travel Packages): https://unsplash.com/photos/Q7htkhMW66Y
 
-France Image (Travel Packages): 
+Italy Image (Travel Packages): https://unsplash.com/photos/ftTsK4QinMw
 
-Barcelona Image (Travel Inspiration): 
+Barcelona Image (Travel Inspiration): https://unsplash.com/photos/q_TzfAt4NQ8
 
-Paris Image (Travel Inspiration): 
+Paris Image (Travel Inspiration): https://unsplash.com/photos/nnzkZNYWHaU
 
-Munich Image (Travel Inspiration): 
+Munich Image (Travel Inspiration): https://unsplash.com/photos/qpemSW6_1Z0
 
 **Website created by Jack Bennett.**

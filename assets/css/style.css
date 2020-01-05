@@ -15,6 +15,10 @@ p {
     padding: 0;
 }
 
+h5 {
+    margin-top: .5rem;
+}
+
 /* ------ General ------ */
 
 .justify-content-center {
@@ -99,6 +103,23 @@ p {
 
 /* ------ Slideshow ------ */
 
+.image-text-position {
+  position: relative;
+  font-family: Arial;
+}
+
+.image-text {
+  opacity: 0.7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
 .slides-margin {
     margin-top: 16px!important;
     margin-bottom: 16px!important;
@@ -112,6 +133,25 @@ p {
 
 .slide-opacity-off, .slide-hover-opacity-off:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 470px) {
+.image-text {
+  opacity: 0.7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-size: 8px !important;
+}
+
+h5 {
+    font-size: 14px !important;
+}
 }
 
 /* ------ Navigation ------ */

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Noto+Sans+JP:100,200,300,400,500,600,700&display=swap');
 
 body {
     padding: 0;
@@ -98,7 +98,25 @@ h5 {
 #countdown-timer {
     font-size: 35px;
     font-weight: 500;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+
+@media screen and (max-width: 768px) {
+
+#countdown-timer {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+}
+
+@media screen and (max-width: 460px) {
+
+#countdown-timer {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif; 
+}
 }
 
 /* ------ Slideshow ------ */

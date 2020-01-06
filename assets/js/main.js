@@ -35,11 +35,21 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  document.getElementById("countdown-timer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("countdown-timer").innerHTML = days + "D |" + " " + hours + " " +  "H |"
+  + " " + minutes + "M |" + " " + seconds + "S";
     
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown-timer").innerHTML = "Offer has now finished!";
   }
 }, 1000);
+
+// Countdown Clock - Code assisted by 'Google Maps' lessons
+
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }

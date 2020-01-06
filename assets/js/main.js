@@ -46,10 +46,12 @@ var x = setInterval(function() {
 
 // Countdown Clock - Code assisted by 'Google Maps' lessons
 
-var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
+function initMap() {
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 3,
+    center: {
+      lat: 46.619261,
+      lng: -33.134766
+    }
+  });
+}

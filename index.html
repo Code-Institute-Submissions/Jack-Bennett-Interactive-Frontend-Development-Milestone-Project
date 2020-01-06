@@ -53,14 +53,37 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <p id="countdown-timer"></p>
+            <p style="padding-top: 10px;" id="countdown-timer"></p>
         </div>
-        <div class="row justify-content-center">
-            <p style="font-size: 12px"><i>*Discount added at checkout</i></p>
+        <br><hr><br>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <i class="fas fa-tags fa-2x"></i>
+                <h5>Price Match</h5>
+                <p>Seen a lower price? Just let us know and we'll match it!</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <i class="fas fa-calendar-alt fa-2x"></i>
+                <h5>Monthly Payments</h5>
+                <p>Don't have the funds right now? Choose monthly payments and pay over 6 or 12 months.</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <i class="fas fa-pound-sign fa-2x"></i>
+                <h5>Money Back</h5>
+                <p>If your holiday lowers in price after you pay, then we'll lower your price as well.</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <i class="fas fa-user-edit fa-2x"></i>
+                <h5>Reviewed by YOU</h5>
+                <p>Have confidence in your holiday purchase by looking at reviews from others who have been.</p>
+            </div>
         </div>
     </section>
-
+    
     <section class="container">
+        <br><hr>
         <div class="row">
             <div class="col-12">
                 <h4 class="travel-inspiration-heading raleway-font">Travel Packages</h4>
@@ -93,6 +116,7 @@
     </section>
 
     <section class="container">
+        <br><hr>
         <div class="row">
             <div class="col-12">
                 <h4 class="travel-inspiration-heading raleway-font">Travel Inspiration</h4>
@@ -202,17 +226,24 @@
             </div>
         </div>
     </footer>
-    
     <script>
-        var APIKey = "AIzaSyD3O1DvA51NUzaxR81ckM8zWwxg5JsigpE"
+        var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
     </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3O1DvA51NUzaxR81ckM8zWwxg5JsigpE&callback=initMap"
+    async defer></script>
 
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3O1DvA51NUzaxR81ckM8zWwxg5JsigpE&callback=initMap" async defer></script>
 
 
 </html>

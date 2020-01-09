@@ -1,51 +1,52 @@
 # Jack Bennett Holidays
 
-This website's sole purpose is to provide a platform for all of my personal work and achievements. It will be a source of information about me for potential recruiters and others interested in my work and capabilities.
+This website's sole purpose is to provide a platform for those looking to find thier next holiday destination.
 
 ## UX
 
-The target audience for this website is those looking for more information on me, in regard to my personal work and achievements. Anyone visiting this website will be hoping to see enough information about myself that they are able to come to a verdict as to whether I am someone they would be looking to hire.
+The target audience for this website is those who are trying to find a new destination for a holiday or general travel.
 
 I have done my best to ensure this website is user friendly for all users, regardless of their device. The webpage has been structured so that it will be responsive on any device that you choose to use. An area that has been looked at heavily in regard to UX is the navigation menu. Instead of the menu stacking and taking up a lot of room in smaller devices, I have designed it so that the entire menu will condense into a dropdown which can be opened by clicking the menu link.
 
-One particularly useful part of my website is ability to view my CV at the click of a button. I have added this to make it easy for potential employers to see my full work details instantly.
-
-The wireframe for this website has been added into the GitHib files.
+The wireframes for this website have been added into the GitHib files.
 
 **User Stories**
 
-Speaking with some users who were testing my website, I asked them what they would like to achieve. They said:
+Speaking with some users who were testing my website, I asked them what they would like for my website to provide them. They said:
 
-As a visitor, I would like to be able to open the website on my iPhone 8
-As a potential employer, I would like to be able to download Jack Bennett's CV
+As a casual visitor, I would like to be able see a variety of different destinations, without having to search for them myself.
+As a potential customer, I would like to see incentives to buy from you and reviews from others to increase trust with your brand.
 
 ## Features
 
 There are a few features available on my website that will make it easy for recruiters/people who have interest in my services. These have been listed below:
 
-1. **Slideshow** - In the navigation bar and the footer I have addded options to download my CV. At the click of a button you will be taken to an external page where my CV will be displayed.
+1. **Slideshow** - 
 
-2. **Contact Form** - A contact form has been added just above the footer so that people who want to get in contact with me have the option to do so.
+2. **Countdown Timer** - 
 
-3. **Google Search Bar API** - I have added a section where there are 2 sample websites. These are currently blank, but will be populated as and when I build websites in the near future.
+2. **Contact Form** - A contact form has been added just above the footer so that people who want to get in contact have the option to do so.
+
+3. **Travel Search API** - 
 
 **Technologies Used**
 
 HTML5
 CSS3
 JavaScript
-JQuery
+JavaSript API
 
 ## Testing
 Referring back to the user stories mentioned above, I needed to test that these were possible and whether my site provided what they wanted to see.
 
-Starting with the first user story "As a visitor, I would like to be able to open the website on my iPhone 8", I essentially needed to make my website responsive for iPhone 8 users. At this point, it didn't make sense to only make my website responsive for a niche market if iPhone 8 users. I may as well go the full distance and make the website responsive for all devices. The way I did this in the code was by using media queries my external CSS stylesheet. To ensure that the CSS I was adding actually worked, I opened my website in a browser, inspected the code and used the Chrome device checker to filter through all the devices and make sure they looked responsive in each device. I can confirm that this was the case and my website appeared to be fully responsive.
+Starting with the first user story "As a casual visitor, I would like to be able see a variety of different destinations, without having to search for them myself", I felt there were a couple of ways I could approach this. The first was to add a slideshow onto the homepage which cycled through various countries that were relatively popular. The second idea was to add a section which cycled through various cities that were quite popular. I decided to do both of these things as I felt it gave the visitor plenty of choice and would hoepfully keep them interested. After showing this to the user who initially made the suggestion, they said they were happy with what they saw.
 
-The second user story was posed as a potential employer looking to potentially hire me. This was simply that they wanted to be able to view CV easily and at the touch of a button if possible. To do this I sinmply stored my CV within my website files, linked to it behind some text (with the option to open the CV in a new tab added) that read 'Download CV' and then added that within my navigation bar. I tested this by opening my website in a browser, clicking the link and ensuring it opened in a new tab.
+The second user story "As a potential customer, I would like to see incentives to buy from you and reviews from others to increase trust with your brand" was posed as a potential customer. Holidays are expensive and they simply wanted to feel that they could save some money if they chose to use my brand. So, I decided the best option would be to add a discount banner, but also a countdown timer just below it to try and intice a relativly quick buy. After showing this to the user who initially made the suggestion, they confirmed that they would be more inticed to book with my brand due to the discount.
 
 **Bugs/Issues**
 
-Responsive navigation bar: The only issue I came across was making the navigation bar responsive in smaller devices. The main issue I had was that I was trying to do it manually without the use of Bootstrap. After some time and effort, I chose to look through the many options Bootstrap provides and I managed to create a navigation bar that turned into a clickable dropdown menu in mobile.
+Slideshow: With the assistance of W3 Schools, setting up the slideshow was too much hard work. Although, I wanted to make the design of it even better by tweaking the width, height and opacity of each image when they are clicked/not clicked. I had a lot of trouble with this at first, but eventually managed to tweak it to make it look much cleaner.
+Countdown Timer: Above the countdown timer is a banner displaying the offer that the countdown is in relation to. I spent a fair bit of time trying to get the countdown timer into the banner itself, which I did manage to do, but it didn't look great in all devices and I had a lot of trouble making it suitable for every device. I therefore decided not to go with this idea and instead kept the countdown timer just below the banner.
 
 ## Deployment
 
@@ -53,11 +54,11 @@ My website was built using 'Cloud9' which is a service provided by Amazon. In Cl
 
 ## Credits
 
-The **contact form** design was inspired by the contact form designed in the small 'Module 4' project which was completed in at earlier date.
+The **contact form** design was inspired and assisted by the contact form designed in the small 'Module 4' project which was completed in at earlier date.
 
-The **slideshow** design was inspired and provided by W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp
+The **slideshow** design was inspired and assisted by W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp
 
-The **countdown timer** was inspired and provided by W3 Schools: https://www.w3schools.com/howto/howto_js_countdown.asp
+The **countdown timer** was inspired and assisted by W3 Schools: https://www.w3schools.com/howto/howto_js_countdown.asp
 
 France Image (Travel Packages): https://unsplash.com/photos/Q7htkhMW66Y
 

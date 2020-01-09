@@ -61,6 +61,14 @@ h5 {
     text-align: center;
 }
 
+/* ------ Header ------ */
+
+.header-content {
+    padding-left: 0 !important;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
 /* ------ Headings ------ */
 
 .page-title {
@@ -97,7 +105,11 @@ h5 {
     margin: 0 !important;
 }
 
-/* ------ Countdown Timer ------ */
+/* ------ Countdown Timer - Assisted by W3 Schools ------ */
+
+.countdown-banner {
+    padding-top: 15px;
+}
 
 #countdown-timer {
     font-size: 35px;
@@ -123,7 +135,7 @@ h5 {
 }
 }
 
-/* ------ Slideshow ------ */
+/* ------ Slideshow - Assisted by W3 Schools ------ */
 
 .image-text-position {
   position: relative;
@@ -231,12 +243,6 @@ h5 {
 }
 }
 
-/* ------ Countdown Banner / Clock ------ */
-
-.countdown-banner {
-    padding-top: 15px;
-}
-
 /* ------ Travel Inspiration ------ */
 
 .travel-inspiration-heading div h3 {
@@ -327,20 +333,6 @@ h5 {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #ffffff !important;
-}
-
-/* ------ Header / Social Media ------ */
-
-.social-media-header {
-    padding-left: 0 !important;
-    background-color: #e7e7e7;
-    text-align: center;
-}
-
-.social-media-header-icons {
-    padding-top: 12px;
-    text-align: right;
-    font-size: 22px;
 }
 
 /* ------ Footer / Social Media ------ */

@@ -352,3 +352,40 @@ h5 {
 .pinterest-footer i {
     font-size: 33px;
 }
+
+/* ------ Contact ------ */
+
+.btn-secondary {
+    background-color: #7cc2fd !important;
+}
+
+.center-form {
+    text-align: center;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+.contact {
+    padding-top: 15px;
+    background-color: #fff;
+    height: 380px;
+    color: #424242;
+}
+
+.contact div h3 {
+    text-align: center;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-h6 {
+    color: #595959;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}

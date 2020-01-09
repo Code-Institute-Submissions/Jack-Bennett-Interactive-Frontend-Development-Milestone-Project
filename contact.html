@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/f17309d9a5.js" crossorigin="anonymous"></script>
+    <title>Jack Bennett Holidays</title>
+</head>
+
+<body style="background-color: #f5f5f5">
+
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 header-content">
+                <a href="#" class="navbar-brand website-logo" target="_blank"><img alt="Jack Bennett Holidays Logo" class="website-logo" style="padding-left: 15px;" src="assets/images/jb-holidays-logo.png"></a>
+            </div>
+            <div class="col-md-7 header-content">
+                <nav class="navbar-expand-sm">
+                    <a class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">Menu
+                    </a>
+                    <div class="collapse navbar-collapse" id="collapse_target">
+                        <ul class="navbar-nav nav-menu mx-auto ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link menu-item">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="travel-inspiration.html" class="nav-link menu-item">Travel Inspiration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="travel-packages.html" class="nav-link menu-item">Travel Packages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link menu-item">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+        <section class="container-fluid contact">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h3 id="contact">Contact</h3>
+                <h6 class="contact-h6">Got a question? Please fill out the below:</h6>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" id="projectsummary" class="form-control" placeholder="Description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Submit question</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row trust-pilot-section">
+            <div class="col-sm-12">
+                <div class="reviews-footer">
+                    <img alt="Trust Pilot" class="trustpilot-logo" src="assets/images/trustpilot_logo.png" alt=""><br>
+                    <p class="trustpilot-header">See what others said about their trip!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row trust-pilot-section">
+            <div style="text-align: center" class="col-12 col-lg-4">
+                <a href="#"><img style="height: auto; width:100px;" src="assets/images/five-stars.png" alt="Trust Pilot Five Stars"></a>
+                <p>Found my perfect holiday in minutes! <br> <strong>Jack - Barcelona</strong></p>
+            </div>
+            <div style="text-align: center" class="col-12 col-lg-4">
+                <a href="#"><img style="height: auto; width:100px;" src="assets/images/five-stars.png" alt="Trust Pilot Five Stars"></a>
+                <p>Had an amazing time away in Portugal with my family. <br> <strong>Claire - Porto</strong></p>
+            </div>
+            <div style="text-align: center" class="col-12 col-lg-4">
+                <a href="#"><img style="height: auto; width:100px;" src="assets/images/five-stars.png" alt="Trust Pilot Five Stars"></a>
+                <p>Will definitely be booking again! <br> <strong>John - Berlin</strong></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="social-media-footer">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="facebook-footer" href="" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="twitter-footer" href="" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="instagram-footer" href="" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="pinterest-footer" href="" target="_blank">
+                                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height: 50px;" class="row copyright-section">
+            <div class="col-8">
+                <p>2020 © JB Holidays.</p>
+            </div>
+            <div class="col-4">
+                <a href="">
+                    <p style="text-align: right;">Contact Us</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -34.397, lng: 150.644 },
+                zoom: 8
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3O1DvA51NUzaxR81ckM8zWwxg5JsigpE&callback=initMap" async defer></script>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</html>

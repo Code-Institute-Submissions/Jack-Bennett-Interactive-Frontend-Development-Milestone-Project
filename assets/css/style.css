@@ -243,6 +243,54 @@ h5 {
 }
 }
 
+/* ------ Incentives Section ------ */
+
+.price-match {
+    
+}
+
+.monthly-payments {
+    
+}
+
+.money-back {
+    
+}
+
+.reviewed-by-you {
+    
+}
+
+@media screen and (max-width: 768px) {
+.money-back {
+    padding-top: 15px;
+}
+
+.reviewed-by-you {
+    padding-top: 15px;
+}
+}
+
+@media screen and (max-width: 470px) {
+.price-match {
+    text-align: center;
+}
+
+.monthly-payments {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.money-back {
+    text-align: center;
+}
+
+.reviewed-by-you {
+    text-align: center;
+}
+
+}
+
 /* ------ Travel Inspiration ------ */
 
 .travel-inspiration-heading div h3 {

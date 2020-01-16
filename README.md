@@ -6,9 +6,9 @@ This website's sole purpose is to provide a platform for those looking to find t
 
 The target audience for this website is those who are trying to find a new destination for a holiday or general travel.
 
-I have done my best to ensure this website is user friendly for all users, regardless of their device. The webpage has been structured so that it will be responsive on any device that you choose to use. An area that has been looked at heavily in regard to UX is the navigation menu. Instead of the menu stacking and taking up a lot of room in smaller devices, I have designed it so that the entire menu will condense into a dropdown which can be opened by clicking the menu link.
+I have done my best to ensure this website is user friendly for all users, regardless of their device. The webpages have been structured so that they will be responsive on any device that you choose to use.
 
-The wireframes for this website have been added into the GitHib files.
+The wireframes for each page on this website have been added into the GitHib files.
 
 **User Stories**
 
@@ -21,20 +21,17 @@ As a potential customer, I would like to see incentives to buy from you and revi
 
 There are a few features available on my website that will make it easy for recruiters/people who have interest in my services. These have been listed below:
 
-1. **Slideshow** - 
+1. **Slideshow** -  A slideshow has been added so people can people can see a variation of holiday destinations.
 
-2. **Countdown Timer** - 
+2. **Countdown Timer** - A countdown timer has been added to show people how long is left on the discount.
 
-2. **Contact Form** - A contact form has been added just above the footer so that people who want to get in contact have the option to do so.
-
-3. **Travel Search API** - 
+3. **Contact Form** - A contact form has been added just above the footer so that people who want to get in contact have the option to do so.
 
 **Technologies Used**
 
 HTML5
 CSS3
 JavaScript
-JavaSript API
 
 ## Testing
 Referring back to the user stories mentioned above, I needed to test that these were possible and whether my site provided what they wanted to see.

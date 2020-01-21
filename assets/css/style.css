@@ -107,40 +107,67 @@ h5 {
 
 /* ------ Holiday Search Bar - Assisted by W3 Schools ------ */
 
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
 #myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
 }
 
-#myUL {
-  /* Remove default list styling */
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-#myUL li a {
-  border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6; /* Grey background color */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
 }
 
-#myUL li a:hover:not(.header) {
-  background-color: #eee; /* Add a hover effect to all links, except for headers */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
+.dropdown a:hover {background-color: #ddd;}
 
+.show {display: block;}
+
+.dropdown-content {
+    text-align: center;
+    position: relative;
+}
+
+.dropdown-menu-item {
+    padding-left: 8px;
+    color: #000 !important;
+}
 
 /* ------ Countdown Timer - Assisted by W3 Schools ------ */
 
@@ -151,44 +178,44 @@ h5 {
 #countdown-timer {
     font-size: 35px;
     font-weight: 500;
-    font-family: 'Noto Sans JP', sans-serif; 
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
 
-#countdown-timer {
-    font-size: 25px;
-    font-weight: 500;
-    font-family: 'Noto Sans JP', sans-serif; 
-}
+    #countdown-timer {
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
 }
 
 @media screen and (max-width: 460px) {
 
-#countdown-timer {
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Noto Sans JP', sans-serif; 
-}
+    #countdown-timer {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
 }
 
 /* ------ Slideshow - Assisted by W3 Schools ------ */
 
 .image-text-position {
-  position: relative;
-  font-family: Arial;
+    position: relative;
+    font-family: Arial;
 }
 
 .image-text {
-  opacity: 0.7;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
 }
 
 .slides-margin {
@@ -198,31 +225,33 @@ h5 {
     margin-right: -5px !important;
 }
 
-.slide-opacity, .slide-hover-opacity:hover {
+.slide-opacity,
+.slide-hover-opacity:hover {
     opacity: 0.60;
 }
 
-.slide-opacity-off, .slide-hover-opacity-off:hover {
+.slide-opacity-off,
+.slide-hover-opacity-off:hover {
     opacity: 1;
 }
 
 @media screen and (max-width: 470px) {
-.image-text {
-  opacity: 0.7;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: black;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: white;
-  font-size: 8px !important;
-}
+    .image-text {
+        opacity: 0.7;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 8px !important;
+    }
 
-h5 {
-    font-size: 14px !important;
-}
+    h5 {
+        font-size: 14px !important;
+    }
 }
 
 /* ------ Navigation ------ */
@@ -251,64 +280,64 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
-.header-name {
-    padding-bottom: 10px;
-    margin: 0;
-}
-    
-.navbar-expand-sm {
-    text-align: center;
-    padding: 5px;
-    margin: 0;
-}
-    
-.ml-auto-mobile {
-    margin: 0;
-}
+    .header-name {
+        padding-bottom: 10px;
+        margin: 0;
+    }
 
-.nav-menu {
-    padding-top: 5px;
-    padding-bottom: 0px;
-    margin: 0;
-}
+    .navbar-expand-sm {
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .ml-auto-mobile {
+        margin: 0;
+    }
+
+    .nav-menu {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        margin: 0;
+    }
 
 }
 
 @media screen and (max-width: 720px) {
-.website-logo {
-    text-align: center;
-}
+    .website-logo {
+        text-align: center;
+    }
 }
 
 /* ------ Incentives Section ------ */
 
 @media screen and (max-width: 768px) {
-.money-back {
-    padding-top: 15px;
-}
+    .money-back {
+        padding-top: 15px;
+    }
 
-.reviewed-by-you {
-    padding-top: 15px;
-}
+    .reviewed-by-you {
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-.price-match {
-    text-align: center;
-}
+    .price-match {
+        text-align: center;
+    }
 
-.monthly-payments {
-    text-align: center;
-    padding-top: 15px;
-}
+    .monthly-payments {
+        text-align: center;
+        padding-top: 15px;
+    }
 
-.money-back {
-    text-align: center;
-}
+    .money-back {
+        text-align: center;
+    }
 
-.reviewed-by-you {
-    text-align: center;
-}
+    .reviewed-by-you {
+        text-align: center;
+    }
 
 }
 
@@ -343,19 +372,19 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
-.barcelona-image {
-    padding-bottom: 10px;
-}
+    .barcelona-image {
+        padding-bottom: 10px;
+    }
 
-.paris-image {
-    padding-bottom: 10px;
-}
+    .paris-image {
+        padding-bottom: 10px;
+    }
 }
 
 /* ------ Travel Packages ------ */
 
 .things-to-do-france {
-    padding-top:  5px;
+    padding-top: 5px;
 }
 
 /* ------ Footer ------ */

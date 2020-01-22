@@ -121,7 +121,7 @@ h5 {
     background-color: #4aadd0;
 }
 
-#myInput {
+#searchBarInput {
     box-sizing: border-box;
     font-size: 16px;
     padding: 14px 20px 12px 45px;
@@ -129,7 +129,7 @@ h5 {
     border-bottom: 1px solid #ddd;
 }
 
-#myInput:focus {
+#searchBarInput:focus {
     outline: 3px solid #ddd;
 }
 

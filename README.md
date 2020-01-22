@@ -19,13 +19,15 @@ As a potential customer, I would like to see incentives to buy from you and revi
 
 ## Features
 
-There are a few features available on my website that will make it easy for recruiters/people who have interest in my services. These have been listed below:
+There are a few features available on my website that will make it easy for potential customers to find a holiday that suits their needs. These have been listed below:
 
 1. **Slideshow** -  A slideshow has been added so people can people can see a variation of holiday destinations.
 
 2. **Countdown Timer** - A countdown timer has been added to show people how long is left on the discount.
 
 3. **Contact Form** - A contact form has been added just above the footer so that people who want to get in contact have the option to do so.
+
+4. **Search Bar** - A search bar with some pre-populated options has been added just below the navigation bar.
 
 **Technologies Used**
 
@@ -43,6 +45,7 @@ The second user story "As a potential customer, I would like to see incentives t
 **Bugs/Issues**
 
 Slideshow: With the assistance of W3 Schools, setting up the slideshow was too much hard work. Although, I wanted to make the design of it even better by tweaking the width, height and opacity of each image when they are clicked/not clicked. I had a lot of trouble with this at first, but eventually managed to tweak it to make it look much cleaner.
+
 Countdown Timer: Above the countdown timer is a banner displaying the offer that the countdown is in relation to. I spent a fair bit of time trying to get the countdown timer into the banner itself, which I did manage to do, but it didn't look great in all devices and I had a lot of trouble making it suitable for every device. I therefore decided not to go with this idea and instead kept the countdown timer just below the banner.
 
 ## Deployment
@@ -56,6 +59,8 @@ The **contact form** design was inspired and assisted by the contact form design
 The **slideshow** design was inspired and assisted by W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 The **countdown timer** was inspired and assisted by W3 Schools: https://www.w3schools.com/howto/howto_js_countdown.asp
+
+The **search bar** was inspired and assisted by W3 Schools: https://www.w3schools.com/howto/howto_js_filter_dropdown.asp
 
 France Image (Travel Packages): https://unsplash.com/photos/Q7htkhMW66Y
 
